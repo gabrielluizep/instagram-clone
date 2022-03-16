@@ -11,7 +11,7 @@ import { GoDiffAdded } from 'react-icons/go'
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="h-[61px] border-b-[1px]">
+    <nav className="h-[60px] outline outline-1 outline-gray-300">
       <div className="m-auto flex h-full max-w-[975px] items-center justify-between px-5">
         <div className="flex h-9 flex-1 items-end">
           <img className="cursor-pointer" src={instagramLogo} alt="Logo" />
