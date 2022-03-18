@@ -3,7 +3,7 @@ import { AiOutlineHeart, AiOutlineShareAlt, AiOutlineComment } from 'react-icons
 
 export const Post: React.FC = () => {
   return (
-    <div className="w-[600px] rounded-sm outline outline-1 outline-gray-300">
+    <div className="w-full rounded-sm outline outline-1 outline-gray-300">
       <div className="flex h-[60px] items-center justify-between px-4">
         <div className="flex items-center text-sm font-medium">
           <div className="h-6 w-6 animate-pulse rounded-full bg-gray-100"></div>

@@ -1,4 +1,4 @@
-import { Navbar } from './Navbar'
-import { Post } from './Post'
-
-export { Navbar, Post }
+export * from './Navbar'
+export * from './Post'
+export * from './Stories'
+export * from './Suggestions'

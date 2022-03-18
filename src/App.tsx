@@ -1,6 +1,6 @@
-import { Navbar, Post } from './components'
+import { Navbar, Post, Stories, Suggestions } from './components'
 
-import { instagramLogo } from './assets'
+import { AiFillLeftCircle } from 'react-icons/ai'
 
 export const App: React.FC = () => {
   return (
@@ -8,9 +8,12 @@ export const App: React.FC = () => {
       <Navbar />
       <div className="mx-auto mt-6 grid max-w-[935px] grid-cols-[600px_335px] gap-4">
         <div>
+          <Stories />
           <Post />
         </div>
-        <div className="h-96 w-full bg-slate-100"></div>
+        <div>
+          <Suggestions />
+        </div>
       </div>
     </div>
   )
